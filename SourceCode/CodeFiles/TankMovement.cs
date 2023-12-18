@@ -12,7 +12,7 @@ public class TankMovement : MonoBehaviour
     private float rotationInput;
     private float speed = 8f;
     public static Quaternion wantedRotation;
-    void Start() // Upper case because in C# casing counts!
+    void Start() 
     {
         rb = GetComponent<Rigidbody>();
         currentSpeed = speed;
